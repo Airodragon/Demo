@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="pen-info">
+        <h1>Answer Some quick question</h1>
+        <!-- <p>Using modal blocks + two transition opacities</p> -->
+      </div>
+      
+      <div class="main">
+        <div class="pagenations">
+          <div class="pagenation page-01 is-active"></div>
+          <div class="pagenation page-02"></div>
+          <div class="pagenation page-03"></div>
+        </div>
+        <div class="blocks">
+          <div class="block block-01 is-active">
+            <form>
+              First name:<br>
+              <input type="text" name="firstname" required><br> Last name:<br>
+              <input type="text" name="lastname" required> <br>
+              Age:<br>
+                <input type="number" name="age" required>
+              <div class="button page-02">Next</div>
+            </form>
+          </div>
+          <div class="block block-02">
+            <form>
+              Password:<br>
+              <input type="text" name="pass" required>
+              <div class="button page-03">Next</div>
+            </form>
+          </div>
+      
+          <div class="block block-03">
+            <h1>Done!</h1>
+          </div>
+          
+        </div>
+      </div>
+    
+      <script src="./script.js"></script>
+</body>
+</html>
